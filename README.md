@@ -9,7 +9,9 @@ HTML5, CSS3, Flexbox, Media Queries
 
 🔍 Description:
 
-The website includes: - A header with a logo and navigation menu, using flexbox for horizontal alignment.
+The website includes: 
+
+- A header with a logo and navigation menu, using flexbox for horizontal alignment.
 
 - Slider section with a central message and background image.
 
