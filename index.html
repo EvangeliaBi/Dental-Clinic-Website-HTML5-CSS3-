@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentist</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container flex"> <!--Όλο μου το περιεχόμενο βρίσκεται σε ένα div container, για να το κρατάει σταθερό. Μέσα στο container φτιάχνω και μία καινούργια κλάση που ονομάζεται flex, για να μπορέσω να βάλω στην css το ένα στοιχέιο δίπλα στο άλλο.-->
+            <div id="logo">
+                <img src="images/dental-logo.png" alt="logo">
+            </div>
+            <nav>               <!--Εντός του nav εμπεριέχεται το μενού πλοήγησης.-->
+                <ul class="flex">   <!--Μέσα στην λίστα ul, φτιάχνω μία κλάση flex, για να την καλέσω στην css και να μπει το κάθε li δίπλα στο άλλο με display flex.-->
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Doctors</a></li>
+                    <li><a href="#">Booking</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"><img src="images/search-icon.png" alt="search-icon"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="slider">   <!--Φτιάχνω από κάτω έναν καινούργιο χώρο, για να μπει η εικόνα μου ως background με λίγο κείμενο που έχει πάνω η εικόνα.-->
+        <div class="container">     <!--Βάζω όλο το περιεχόμενο που βρίσκεται μέσα στον χώρο (slider) εντός της κλάσης div container, έτσι ώστε το περιεχόμενο να μην πιάσει όλη την οθόνη μου και να ευθυγραμμιστεί στην ίδια ευθεία δηλαδή με το logo icon που βρίσκεται από πάνω.--> 
+            <h1>Best Dental Clinic in the world!</h1>
+        
+        </div>  
+    </div>  
+    <!--Τέλος slider.-->
+    <div id="banner">       
+        <div class="container flex">    <!--Βάζω κι εδώ κλάση container για να είναι στοιχισμένο και ευθυγραμμισμένο το περιεχόμενο με τα από πάνω και να μην πιάσει όλη την οθόνη και να μην ξεγεύγει. Βάζω και το flex για να έρθει η παράγραφος δίπλα με το τηλέφωνο επικοινωνίας.-->
+            <div id="keimeno">     <!--Φτιάχνω 2 εσωτερικούς χώρους, όπου ο ένας εσωτερικός χώρος είναι το div id keimeno και θα περιέχε λίγο κείμενο.-->
+                <p>
+                    In our clinic, we apply the most modern methods of dental technology with the sole purpose of providing you with the most effective treatment. Every periodontal treatment requires a personalized maintenance cleaning program to monitor the clinical condition of the oral cavity.
+                </p>
+            </div>
+            <div id="phone">     <!--Αυτός είναι ο δεύτερος εσωτερικός χώρος που περιέχει μία h1 με ένα τηλέφωνο επικοινωνίας.-->
+                <h1>+0120 978 234</h1>
+            </div>
+        </div>
+    </div>
+    <!--Τέλος banner.-->
+    <main>     <!--Φτιάχνω από κάτω έναν μεγάλο χώρο που περιέχει 3 εσωτερικούς μικρότερους χώρους.-->
+        <div class="container flex">     <!--Βάζω κι εδώ την κλάση container αφού θέλω το ένα στοιχείο (ο κάθε εσωτερικός χώρος/κουτί που εμπεριέχεται μέσα σε αυτό το container) να μπει δίπλα στον άλλον.-->
+            <!--Δημιουργώ το πρώτο κουτί/εσωτερικό χώρο, καθώς τα υπόλοιπα 2 κουτιά/εσωτερικοί χώροι θα ακολουθήσουν την ίδια μορφοποίηση.-->
+            <div class="box">       
+                <img src="images/general-dentistry.png" alt="general-dentistry">
+                <h1>General Dentistry</h1>
+                <p>The dental substance does not have the ability to regenerate. With the philosophy of minimally invasive dentistry, the preservation of healthy dental tissues is ensured to the greatest possible extent.</p>
+                <a href="#">More</a>
+            </div>
+            <div class="box keno">   <!--Ο δεύτερος εσωτερικός χώρος. Φτιάχνω στο μεσαίο μου κουτί και μία δεύτερη κλάση (keno), προκειμένου να την καλέσω στην css και να ορίσω εξωτερικά περιθώρια (margin) από τα άλλα 2 κουτιά, δηλαδή αριστερά και δεξιά.-->     
+                <img src="images/esthetic-dentistry.png" alt="esthetic-dentistry">
+                <h1>Esthetic Dentistry</h1>
+                <p>We all know how important a beautiful smile plays a role in our appearance and, of course, in our self-confidence with the help of digital 3D technology where your smile is redesigned according to the physiology of your mouth, jaw, and face for a personalized aesthetic restoration design.</p>
+                <a href="#">More</a>
+            </div>
+            <div class="box">   <!--Ο τρίτος εσωτερικός χώρος.-->       
+                <img src="images/orthodontics.png" alt="orthodontics">
+                <h1>Orthodontics</h1>
+                <p>Each case is addressed with a personalized approach that starts from diagnosing the needs and creating a personal rehabilitation plan. The imaging process is carried out simply and quickly using a non-invasive intraoral 3D scanner, and with the help of innovative 3D technology and next-generation materials, we ensure a healthy and aesthetically excellent result for you to smile again with confidence.</p>
+                <a href="#">More</a>
+            </div>
+        </div>
+    </main>
+    <section>
+        <div class="container flex">
+            <div id="location">
+                <h2>Location</h2>
+            </div>
+            <div id="contact">
+                <h2>Contacts</h2>
+            </div>
+        </div>
+    </section>
+    <div id="platos">
+        <div class="container flex">
+            <div id="map">
+                <img src="images/map.png" alt="map">
+            </div>
+            <div id="services">
+                <div class="move"><img src="images/high-professional.png" alt="prof">
+                    <h4 class="change">High professional doctors level!</h4>
+                </div>
+                <div class="move" id="gap"><img src="images/only-modern.png" alt="modern">    <!--Βάζω ένα id=gap, στο μεσαίο εικονίδιο για να πάρει εσωτερική απόσταση από πάνω και ίση εσωτερική απόσταση από κάτω(padding top & padding bottom) και να αφήσει περιθώρια στο εικονίδιο που βρίσκεται από πάνω και στο εικονίδιο που βρίσκεται από κάτω.-->
+                    <h4 class="change">Only modern and best equipment!</h4>
+                </div>
+                <div class="move"><img src="images/optimum-ration.png" alt="optimum-ration">
+                    <h4 class="change">The optimum ratio of price and quality!</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Τέλος div με id="platos"-->
+    <footer id="site-footer">
+  <div class="footer-container">
+    <div class="footer-col contacts">
+      <h3>Contacts</h3>
+      <p class="address">855 Lane Drive St, California, 33200</p>
+      <p class="phone">+0120 978 234</p>
+    </div>
+
+    <div class="footer-col pages">
+      <h3>Pages</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Booking</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col services">
+      <h3>Services</h3>
+      <ul>
+        <li>Periodontics</li>
+        <li>Orthodontics</li>
+        <li>Esthetic dentistry</li>
+        <li>Children's dentistry</li>
+        <li>Implant dentistry</li>
+      </ul>
+    </div>
+
+    <div class="footer-col specialists">
+      <h3>Specialists</h3>
+      <ul>
+        <li>Cardiology</li>
+        <li>Therapist</li>
+        <li>Surgery</li>
+        <li>Diagnosis</li>
+        <li>Pediatrics</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Follow</h3>
+      <div class="social">
+        <a href="#"><img src="images/facebook.png" alt="face" class="icon"></a>
+        <a href="#"><img src="images/instagram.png" alt="instagram" class="icon"></a>
+        <a href="#"><img src="images/twitter.png" alt="twitter" class="icon"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025</p>
+  </div>
+</footer>
+<!--Τέλος footer-->
+</body>
+
+</html>
