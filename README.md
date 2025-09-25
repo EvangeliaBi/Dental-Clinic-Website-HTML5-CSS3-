@@ -2,9 +2,10 @@
 
 ![Παρουσίαση Εφαρμογής](demo.gif)
 
-Technologies: 
+🔧 Technologies: 
 
 HTML5, CSS3, Flexbox, Media Queries
+
 
 🔍 Description:
 
@@ -19,6 +20,7 @@ The website includes: - A header with a logo and navigation menu, using flexbox 
 - Section with a map and service icons, enhancing the professional image of the clinic.
 
 - Footer with organized contact information, pages, services, specialties, and social media icons.
+
 
 📱 Responsive Design:
 
